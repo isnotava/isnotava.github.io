@@ -52,6 +52,7 @@ li{
     background-color: cadetblue;
     padding: 20px;
     border-radius: 10%;
+    transition: all 0.4s;
 }
 h1{
     text-align: center;
@@ -110,5 +111,9 @@ a{
     text-decoration:none;
     width:200px ;
 }
+.box:hover{
+    transform: scale(1.3);
+    box-shadow: 10px 10px 10px grey;
 
+}
 
