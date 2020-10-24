@@ -3,14 +3,19 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 .bar{
 
     color: #f5f6fa ;
     height: 50px;
-    background-color:gray ;
+    background-color:#49391841 ;
     font-family: 'Roboto', sans-serif;
     line-height: 35px;
-    
+    overflow: hidden;
+   
+}
+.left ul li a{
+    text-decoration: none;
 }
 #name{
     margin-left: 10px;
@@ -28,9 +33,11 @@
 li{
     list-style: none;
     float: left;
-    margin: 5px;
-    display:flex
-    
+    padding: 5px;
+    display:flex;
+    background-color: #4CAF50;
+    color: white;
+    height: 50px;
 
 }
 .thingys{
@@ -57,14 +64,15 @@ h1{
     
 }
 .side_bar{
- 
+ background-color: azure;
 }
 .right-content{
     width: 90%;
 }
 .left-content{
-    width: 10%;
-    height: 300px;
+    
+    width:10%;
+    height: fit-content;
     background-color: aquamarine;
 }
 
@@ -84,3 +92,23 @@ h1{
   .img{
       width: 200px;
   }
+  .bar:hover {
+    background-color: #49391841;
+}
+a{
+    background-color: #4CAF50;
+    color: white;
+  
+}
+.left-content{
+    position: fixed;
+    top: 50%;
+    background-color: #aaa69d;
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-decoration:none;
+    width:200px ;
+}
+
+
