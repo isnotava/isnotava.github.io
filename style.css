@@ -57,7 +57,7 @@ h1{
     
 }
 .side_bar{
-
+ 
 }
 .right-content{
     width: 90%;
@@ -66,4 +66,9 @@ h1{
     width: 10%;
     height: 300px;
     background-color: aquamarine;
+}
+
+.home{
+    margin-top: 100px;
+    text-align: center;
 }
