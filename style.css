@@ -88,11 +88,11 @@ h1{
     background-color: red;
     color: white;
     text-align: center;
-  }
-  .img{
+}
+.img{
       width: 200px;
-  }
-  .bar:hover {
+}
+.bar:hover {
     background-color: #49391841;
 }
 a{
