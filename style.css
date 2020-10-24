@@ -116,4 +116,7 @@ a{
     box-shadow: 10px 10px 10px grey;
 
 }
-
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
