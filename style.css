@@ -12,6 +12,7 @@
     font-family: 'Roboto', sans-serif;
     line-height: 35px;
     overflow: hidden;
+  
    
 }
 .left ul li a{
@@ -52,7 +53,9 @@ li{
     background-color: cadetblue;
     padding: 20px;
     border-radius: 10%;
-    transition: all 0.4s;
+    transition: all 0.4s;  
+    cursor: pointer;
+    width: 350px;
 }
 h1{
     text-align: center;
@@ -91,10 +94,11 @@ h1{
     text-align: center;
 }
 .img{
-      width: 200px;
+      width: 100%;
 }
 .bar:hover {
     background-color: #49391841;
+    cursor: pointer;
 }
 a{
     background-color: #4CAF50;
