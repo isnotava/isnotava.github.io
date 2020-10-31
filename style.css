@@ -17,6 +17,7 @@
 }
 .left ul li a{
     text-decoration: none;
+    font-size: 15px;
 }
 #name{
     margin-left: 10px;
@@ -87,15 +88,7 @@ li{
     margin-top: 100px;
     text-align: center;
 }
-.footer {
-    /* position: fixed;
-    left: 0;
-    bottom: 0; */
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-}
+
 
 .bar:hover {
     background-color: #49391841;
@@ -162,21 +155,25 @@ a{
     border: 1px solid black;
     margin: 10px;
     border-radius: 5px;
+    height: fit-content;
 }
 .side-bar ul{
     display: flex;
     flex-direction: column;
 }
-.side-bar ul li{
+.side-bar ul li a{
     width: 100%;
     text-transform: uppercase;
     color: black;
+    text-decoration: none;
     border-bottom: 1px dotted black;
+
     
 }
-.side-bar ul li a{
-    /* color: #ffff; */
-    text-decoration: none;
+
+.side-bar ul li a:hover{
+    color: rgb(45, 184, 226);
+    
 }
 .container{
     display: flex;
@@ -242,3 +239,184 @@ a{
     background-color: #c51230;
     color: #ffff;
 }
+
+/* footer */
+
+
+.footer {
+    /* position: fixed;
+    left: 0;
+    bottom: 0; */
+    width: 100%;
+    background-color: rgb(49, 127, 190);
+    color: white;
+    text-align: center;
+}
+.card .card-header{
+    background-color: rgb(41, 109, 236);
+    font-size: x-large;
+}
+.card .card-body{
+    background-color: cornflowerblue;
+}
+
+.card-body.col-xl-12{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+}
+.card-body.col-xl-12 div div p{
+    font-size: 20px;
+}
+/* ........... */
+/* mạng xã hội */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+  :root {
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: var(--font);
+    font-size: 1.4rem;
+    overflow-x: hidden;
+    font-weight: 300;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  input,
+  button,
+  textarea,
+  select {
+    font-family: var(--font);
+    font-size: 1.4rem;
+    font-weight: 300;
+    outline: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
+  
+          .social-share {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+          }
+          .social-share div i{
+            line-height: 40px;
+          }
+          .social-share-icon {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+          }
+          .social-share-text {
+            color: white;
+            margin-left: 20px;
+            font-size: 16px;
+          }
+
+          .social-share-item {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+          }
+          .social-share-item.facebook {
+            background-color: #3b5999;
+          }
+          .social-share-item.facebook .social-share-icon {
+            color: #3b5999;
+          }
+          .social-share-item.instagram {
+            background-color: #e4405f;
+          }
+          .social-share-item.instagram .social-share-icon {
+            color: #e4405f;
+          }
+          .social-share-item.twitter {
+            background-color: #55acee;
+          }
+          .social-share-item.twitter .social-share-icon {
+            color: #55acee;
+          }
+          .social-share-item + .social-share-item {
+            margin-top: 20px;
+          }    
+/*  */
+/* back to top */
+a.cd-top {
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    /* image replacement properties */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: #3097D1 url("https://thinhweb.com/wp-content/themes/thinhweb/images/cd-top-arrow.svg") no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+    }
+    a.cd-top.cd-is-visible, a.cd-top.cd-fade-out, .no-touch a.cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+    }
+    a.cd-top, a.cd-top:visited, a.cd-top:hover {
+    color: #CCCCCC;
+    text-decoration: none;
+    }
+    a.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+    }
+    a.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: 1;
+    }
+
