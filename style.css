@@ -221,6 +221,7 @@ a{
     border: 1px solid #CCC;
     border-radius: 5px;
     margin: 20px;
+
 }
 .add_to_your_cart{
     display: flex;
@@ -367,7 +368,7 @@ a{
           .social-share-item.instagram {
             background-color: #e4405f;
           }
-          .social-share-item.instagram .social-share-icon {
+          .social-share-item.instagram .social-share-icon { 
             color: #e4405f;
           }
           .social-share-item.twitter {
